@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Text Editor",
+        title: "J.A.T.E",
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
@@ -29,13 +29,13 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Text Editor",
-        short_name: "Editor",
+        name: "Just Another Text Editor",
+        short_name: "J.A.T.E",
         description: "An app that enable user to create note code snippet",
         background_color: "#225D9F",
         theme_color: "#33A9DD",
-        start_url: "/",
-        publicPath: "/",
+        start_url: "./",
+        publicPath: "./",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),

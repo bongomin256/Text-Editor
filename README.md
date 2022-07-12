@@ -64,5 +64,5 @@ Incase of any question[s] or suggestion[s] concerning this appication, please co
 
 ## Screenshots
 
-![screenshot](images/screenshot1.png)
-![screenshot](images/screenshot2.png)
+![screenshot](client/src/images/screenshot1.png)
+![screenshot](client/src/images/screenshot2.png)
